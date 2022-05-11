@@ -25,8 +25,8 @@ class App(GraphicsLayoutWidget):
         self.w = QtGui.QWidget()
 
         ## Create some widgets to be placed inside
-        self.btn0 = QtGui.QPushButton('Calibrate Zero [0%]')
-        self.btn100 = QtGui.QPushButton('Calibrate Full [100%]')
+        self.btn0 = QtGui.QPushButton('Calibrate Zero (Initial Value) [0%]')
+        self.btn100 = QtGui.QPushButton('Calibrate Full (End Value) [100%]')
         self.btnclr = QtGui.QPushButton('Clear Calibration')
         self.text = QtGui.QLineEdit('enter text')
         self.listw = QtGui.QListWidget()
